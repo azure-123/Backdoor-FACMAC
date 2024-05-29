@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/main.py",
+            "args": [
+                "--config=facmac_pp",
+                "--env-config=particle",
+                "with",
+                "env_args.scenario_name=continuous_pred_prey_3a",
+                "t_max=2000000"
+            ],
+            "console": "integratedTerminal",
+            "purpose": ["debug-in-terminal"],
+            "justMyCode": false
+        }
+    ]
+}
